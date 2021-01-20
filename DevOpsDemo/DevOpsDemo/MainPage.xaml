@@ -9,23 +9,31 @@
         </Frame>
         <Label Text="We need to become Full Stack" FontSize="Title" Padding="30,10,30,10"/>
         <Label Text="Let commit changes to the code and see how Git works!" FontSize="16" Padding="30,0,30,0"/>
+        <Image Source="" Background="PowderBlue"  Grid.Column="0"  Grid.Row="0" Grid.ColumnSpan="2"/>
 
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height=".5*"/>
+                <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
+            <Editor Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="1"
+                    Placeholder="Enter Note Here"/>
+
+            
             <Button Grid.Row="2" Grid.Column="1" Text="Submit"/>
 
             <Button Grid.Row="2" Grid.Column="2" Text="Recall"/>
-            <Button Grid.Row="3" Grid.Column="3" Text="Help"/>
+            
+            <Button Grid.Row="2" Grid.Column="3" Text="Help"/>
+
+            
         </Grid>
 
     </StackLayout>
