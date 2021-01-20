@@ -33,6 +33,8 @@
             
             <Button Grid.Row="2" Grid.Column="3" Text="Help"/>
             <Button Grid.Row="3" Grid.Column="3" Text="Help2"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="Help4"/>
+            
 
 
          </Grid>
