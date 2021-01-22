@@ -31,7 +31,7 @@
 
             <Button Grid.Row="2" Grid.Column="2" Text="Recall"/>
             
-            <Button Grid.Row="2" Grid.Column="3" Text="questions"/>
+            <Button Grid.Row="2" Grid.Column="3" Text="question"/>
            
 
         </Grid>
