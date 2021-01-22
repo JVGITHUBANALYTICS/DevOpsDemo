@@ -33,7 +33,11 @@
             
             <Button Grid.Row="2" Grid.Column="3" Text="questions"/>
            
+<<<<<<< Updated upstream
             <Button Grid.Row="3" Grid.Column="3" Text="submit"/>
+=======
+            <Button Grid.Row="3" Grid.Column="3" Text="anything"/>
+>>>>>>> Stashed changes
         </Grid>
 
     </StackLayout>
