@@ -36,7 +36,7 @@
 <<<<<<< Updated upstream
             <Button Grid.Row="3" Grid.Column="3" Text="submit"/>
 =======
-            <Button Grid.Row="3" Grid.Column="3" Text="anything"/>
+            <Button Grid.Row="3" Grid.Column="3" Text="anything2"/>
 >>>>>>> Stashed changes
         </Grid>
 
